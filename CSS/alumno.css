@@ -7,15 +7,15 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #090909;
     font-family: 'Noto Sans', sans-serif;
 }
 
 header {
     position: relative;
     width: 100%;
-    height: 100vh;
-    background: url('../img/IMG1.jpg') no-repeat center center/cover;
+    height: 70vh;
+    background: url('../img/online1.jpg') no-repeat center center/cover;
 }
 
 header:before {
@@ -153,7 +153,7 @@ header:before {
 }
 
 .labels i {
-    color: rgb(22, 158, 255);
+    color: rgb(25, 136, 215);
     font-size: 16px;
     margin-right: 8px;
 }
@@ -529,7 +529,7 @@ header:before {
     position: relative;
     width: 100%;
     height: 180px;
-    background: url('../img/img7.jpg') no-repeat center center/cover;
+    background: url('../img/IMG1.jpg') no-repeat center center/cover;
 }
 
 .gamesearch::before {
@@ -594,12 +594,12 @@ header:before {
     background-color: #fff;
     color: #333;
 }
-
+/* hahah */
 .newrelesed {
     position: relative;
     width: 100%;
     height: 70vh;
-    background: url('../img/jesus.jpg') no-repeat center center/cover;
+    background: url('../img/igle2.jpg') no-repeat center center/cover;
     z-index: 1;
     justify-content: left;
     align-items: left;
@@ -680,6 +680,183 @@ header:before {
 .newrelesed div a:hover {
     color: black;
 }
+/* llhlh */
+
+/* hahah */
+.newrelesed_a {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('../img/igle3.jpg') no-repeat center center/cover;
+    z-index: 1;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+}
+
+.newrelesed_a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .4;
+    z-index: -1;
+}
+
+.newretitle {
+    margin-bottom: 30px;
+}
+
+.newretitle h2 {
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    z-index: 9;
+    color: #fff;
+    font-size: 3.2rem;
+    line-height: 55px;
+}
+
+.newretitle h2:last-child {
+    color: var(--main-color);
+}
+
+.newrelesed_a p {
+    padding-right: 30rem;
+    margin-bottom: 40px;
+    color: #ffffffb3;
+    font-size: 15px;
+}
+
+.newrelesed_a div {
+    gap: 30px;
+}
+
+.newrelesed_a div a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: var(--main-color);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    border-bottom: 2px solid var(--main-color);
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    z-index: 9;
+}
+
+.newrelesed_a div a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background-color: var(--main-color);
+    z-index: -1;
+    transition: .3s;
+}
+
+.newrelesed_a div a:hover::before {
+    height: 100%;
+}
+
+.newrelesed_a div a:hover {
+    color: black;
+}
+/* llhlh */
+
+/* hahah */
+.newrelesed_b {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url('../img/igle4.jpg') no-repeat center center/cover;
+    z-index: 1;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+}
+
+.newrelesed_b::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .4;
+    z-index: -1;
+}
+
+.newretitle {
+    margin-bottom: 30px;
+}
+
+.newretitle h2 {
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    z-index: 9;
+    color: #fff;
+    font-size: 3.2rem;
+    line-height: 55px;
+}
+
+.newretitle h2:last-child {
+    color: var(--main-color);
+}
+
+.newrelesed_b p {
+    padding-right: 30rem;
+    margin-bottom: 40px;
+    color: #ffffffb3;
+    font-size: 15px;
+}
+
+.newrelesed_b div {
+    gap: 30px;
+}
+
+.newrelesed_b div a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: var(--main-color);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    border-bottom: 2px solid var(--main-color);
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    z-index: 9;
+}
+
+.newrelesed_b div a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background-color: var(--main-color);
+    z-index: -1;
+    transition: .3s;
+}
+
+.newrelesed_b div a:hover::before {
+    height: 100%;
+}
+
+.newrelesed_b div a:hover {
+    color: rgb(250, 246, 246);
+}
+/* llhlh */
 
 .featuredgames {
     width: 100%;
@@ -1221,4 +1398,12 @@ footer {
 
 .copyright ul li .factive {
     color: var(--main-color);
+}
+
+
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
