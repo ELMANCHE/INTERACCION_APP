@@ -27,9 +27,10 @@ header:before {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: #000000;
-    opacity: 0.2;
+    background: #000000; /* Fondo negro */
+    opacity: 0.5; /* Aumenta el nivel de opacidad para un filtro más oscuro */
 }
+
 
 .nav1 {
     width: 100%;
